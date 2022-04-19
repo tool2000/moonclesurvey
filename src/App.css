@@ -28,6 +28,21 @@
   color: #61dafb;
 }
 
+.sv_main .sv_container .sv_body .sv_p_root .sv_page_title {
+  font-family: 'Noto Sans CJK KR', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.sv-question,
+.sv-btn,
+.sv-container-modern {
+  font-family: 'Noto Sans CJK KR', 'Hevaltica', 'Arial', 'sans-serif';
+}
+
+h5 span {
+  font-family: 'Noto Sans CJK KR', 'Hevaltica', 'Arial', 'sans-serif';
+}
+
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +50,41 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 100;
+  src: url("styles/fonts/NotoSansKR-Light.woff2") format('woff2'),
+  url("styles/fonts/NotoSansKR-Light.woff") format('woff'),
+  url("styles/fonts/NotoSansKR-Light.otf") format('truetype')
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: normal;
+  src: url("styles/fonts/NotoSansKR-Regular.woff2") format('woff2'),
+  url("styles/fonts/NotoSansKR-Regular.woff") format('woff'),
+  url("styles/fonts/NotoSansKR-Regular.otf") format('truetype')
+}
+
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: 500;
+  src: url("styles/fonts/NotoSansKR-Medium.woff2") format('woff2'),
+  url("styles/fonts/NotoSansKR-Medium.woff") format('woff'),
+  url("styles/fonts/NotoSansKR-Medium.otf") format('truetype')
+}
+
+@font-face {
+  font-family: 'Noto Sans CJK KR';
+  font-style: normal;
+  font-weight: bold;
+  src: url("styles/fonts/NotoSansKR-Bold.woff2") format('woff2'),
+  url("styles/fonts/NotoSansKR-Bold.woff") format('woff'),
+  url("styles/fonts/NotoSansKR-Bold.otf") format('truetype')
 }
