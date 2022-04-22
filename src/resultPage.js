@@ -22,7 +22,7 @@ const useStyles = makeStyles({
     //   width: "150px",
     //   height: "49px",
     //   backgroundImage: "linear-gradient(.25turn, #f00, #00f)"
-    backgroundImage: "url('/background.jpg')"
+    backgroundImage: "url('/result_back.jpg')"
     }
   });
 
@@ -49,7 +49,7 @@ function ResultPage() {
 
                                 <DetailChart value={total*10}/>
 
-                                <Typography variant="h5" component="div">
+                                {/* <Typography variant="h5" component="div">
                                     엄마에 대해 얼마나 잘 알고 계신가요?
                                 </Typography>
                                 <Typography variant="body2" component="div" sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center', width: '50%'}}>
@@ -61,8 +61,8 @@ function ResultPage() {
                                 </Typography>
                                 <Typography variant="h5" component="div">
                                    [ 엄마와 딸의 교환일기 ]
-                                </Typography>
-                                <img src="/book.jpg" width="300px" height="300px"/>
+                                </Typography> */}
+                                <img src="/result562_img.jpg"/>
 
                             </CardContent>  
                         </Card>

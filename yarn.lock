@@ -8359,6 +8359,11 @@ survey-react-ui@^1.9.25:
     react-dom "^16.5.0 || ^17.0.1"
     survey-core "*"
 
+survey-react@^1.9.26:
+  version "1.9.26"
+  resolved "https://registry.yarnpkg.com/survey-react/-/survey-react-1.9.26.tgz#78715a6444ce3f8f5358eefd8c749a86811b1708"
+  integrity sha512-KvE06wpr2z0clfwN+iAV7ePu3epOU0TfHQEKJjCo/c3ZEO9Gd/3V9YMqORLuvqMPiZsd+aGijHOHvC5itYPrKA==
+
 svg-parser@^2.0.2:
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/svg-parser/-/svg-parser-2.0.4.tgz#fdc2e29e13951736140b76cb122c8ee6630eb6b5"

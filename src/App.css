@@ -37,11 +37,22 @@
   font-family: 'Noto Sans CJK KR', 'Hevaltica', 'Arial', 'sans-serif';
 }
 
+.sv-page, .sv-body__page {
+  margin: 0;
+}
+
+.sv-action-bar, .sv-footer, .sv-body__footer, .sv-clearfix {
+  margin: 0;
+  padding: 0;
+}
+
 h5 span {
   font-family: 'Noto Sans CJK KR', 'Hevaltica', 'Arial', 'sans-serif';
 }
 
-
+div {
+  color: #ea6061
+}
 
 @keyframes App-logo-spin {
   from {
