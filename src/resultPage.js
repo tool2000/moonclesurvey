@@ -36,7 +36,7 @@ function ResultPage() {
             <Stack spacing={1} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
 
                 <ThemeProvider theme={TITLE_THEME}>
-                    <Box sx={{ minWidth: 275, width: '95%'}} >
+                    <Box sx={{ minWidth: 275, width: '100%'}} >
                         <Card >
                         {/* <Card style={{ border: "none", boxShadow: "none"}}> */}
                             <CardContent sx={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center', width: '100%'}} className={classes.buttonStep} >

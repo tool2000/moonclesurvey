@@ -26,8 +26,8 @@ const surveyJson = {
           "type": "image",
           "name": "banner",
           "imageLink": "start2.jpg",
-          "imageWidth": "600px",
-          "imageHeight": "800px",
+          "imageWidth": "480px",
+          "imageHeight": "650px",
           // "imageWidth": "100vw",
           // "imageHeight": "100vh",
           "maxWidth": "1920px",
@@ -38,10 +38,10 @@ const surveyJson = {
       "elements": [
             {
               "type": "image",
-              "name": "banner",
-              "imageLink": "./1a.jpg",
-              "imageWidth": "562px",
-              "imageHeight": "347px",
+              "name": "banner1",
+              "imageLink": "./1b.jpg",
+              "imageWidth": "400px",
+              "imageHeight": "320px",
           },
           {
             "type": "boolean",
@@ -51,8 +51,6 @@ const surveyJson = {
             "titleLocation": "top",
             "label": "친구, 선생님, 동료 등 주변 5명 이상의 MBTI를 알고 있다.",
             "isRequired": true,
-            "valueTrue": "1",
-            "valueFalse": "0"
           },
           {
             "type": "boolean",
@@ -71,10 +69,10 @@ const surveyJson = {
     "elements": [
           {
             "type": "image",
-            "name": "banner",
-            "imageLink": "./2a.jpg",
-            "imageWidth": "562px",
-            "imageHeight": "347px",
+            "name": "banner2",
+            "imageLink": "./2b.jpg",
+            "imageWidth": "400px",
+            "imageHeight": "320px",
         },
         {
           "type": "boolean",
@@ -102,10 +100,10 @@ const surveyJson = {
   "elements": [
         {
           "type": "image",
-          "name": "banner",
+          "name": "banner3",
           "imageLink": "./3a.jpg",
-          "imageWidth": "562px",
-          "imageHeight": "347px",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
       },
       {
         "type": "boolean",
@@ -145,7 +143,7 @@ function MainBody() {
   const alertResults = useCallback((sender) => {
     // const res = JSON.stringify(sender.data);
     const res = sender.data;
-
+    console.log(res)
     var total = 0
     console.log(res)
     if (res.bool1) {
