@@ -13,7 +13,7 @@ export default function DetailChart(score) {
             data: [score.value, 70]
           }, 
         ],
-          colors: ["#ea6061", "#4876af"],
+          // colors: ["#ea6061", "#4876af"],
           options: {
             chart: {
             //   height: 350,
