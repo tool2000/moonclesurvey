@@ -62,7 +62,7 @@ function ResultPage() {
                                 <Typography variant="h5" component="div">
                                    [ 엄마와 딸의 교환일기 ]
                                 </Typography> */}
-                                <img src="/result562_img.jpg"/>
+                                <img src="/result562_img.jpg" width="100%"/>
 
                             </CardContent>  
                         </Card>

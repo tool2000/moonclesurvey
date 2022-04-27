@@ -51,8 +51,17 @@ h5 span {
 }
 
 div {
-  color: #ea6061
+  color: #ea6061;
 }
+
+div[role="presentation"] {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.sv_qbln {
+  margin: 8px;
+  }
 
 @keyframes App-logo-spin {
   from {

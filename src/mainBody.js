@@ -26,12 +26,12 @@ const surveyJson = {
           "type": "image",
           "name": "banner",
           "imageLink": "start2.jpg",
-          "imageWidth": "480px",
-          "imageHeight": "650px",
+          "imageWidth": "375px",
+          "imageHeight": "600px",
           // "imageWidth": "100vw",
           // "imageHeight": "100vh",
-          "maxWidth": "1920px",
-          "minWidth": "100%",
+          // "maxWidth": "1920px",
+          // "minWidth": "100%",
         }]
     }, {
       "title": "01/20",
@@ -40,7 +40,7 @@ const surveyJson = {
               "type": "image",
               "name": "banner1",
               "imageLink": "./1b.jpg",
-              "imageWidth": "400px",
+              "imageWidth": "375px",
               "imageHeight": "320px",
           },
           {
@@ -71,7 +71,7 @@ const surveyJson = {
             "type": "image",
             "name": "banner2",
             "imageLink": "./2b.jpg",
-            "imageWidth": "400px",
+            "imageWidth": "375px",
             "imageHeight": "320px",
         },
         {
@@ -89,7 +89,7 @@ const surveyJson = {
           // "title": "Please answer the question",
           // "indent": 30,
           "titleLocation": "top",
-          "label": "최근 한 달 이내에 주변 사람에게 기프티콘을 선물한 적이 있다.",
+          "label": "엄마와 함께 찍은 최근 날짜의 사진이 사진첩에 있다.",
           "isRequired": true
         }
     ]
@@ -111,7 +111,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구, 선생님, 동료 등 주변 5명 이상의 MBTI를 알고 있다.",
+        "label": "최근 한 달 이내에 주변 사람에게 기프티콘을 선물한 적이 있다.",
         "isRequired": true
       },
       {
@@ -120,11 +120,382 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "나는 우리 엄마의 MBTI를 알고 있다.",
+        "label": "최근 한 달 이내에 엄마에게 기프티콘을 선물한 적이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "isRequired": true
+      }
+  ]
+}, {
+  "title": "04/20",
+  "elements": [
+        {
+          "type": "image",
+          "name": "banner4",
+          "imageLink": "./4b.jpg",
+          "imageWidth": "400px",
+          "imageHeight": "320px",
+      },
+      {
+        "type": "boolean",
+        "name": "bool7",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "isRequired": true
+      },
+      {
+        "type": "boolean",
+        "name": "bool8",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
         "isRequired": true
       }
   ]
 }, 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ],
   showQuestionNumbers: "off",
   pageNextText: "다음",
