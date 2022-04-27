@@ -65,10 +65,10 @@ function ResultPage() {
                                 </Typography> */}
                                 <img src="/result562_img.jpg" width="100%"/>
                                 <a href="http://www.yes24.com/Product/Goods/108943383">
-                                    <img src="/gift.jpg" width="100%" />
+                                    <img src="/gift.jpg" width="100%" height="100% />
                                 </a>
-                                <a href="http://ec2-15-164-241-83.ap-northeast-2.compute.amazonaws.com:3000/">
-                                    <img src="/link.jpg" width="100%" />
+                                <a href="http://ec2-15-164-241-83.ap-northeast-2.compute.amazonaws.com:3000">
+                                    <img src="/link.jpg" width="100%" height="100% />
                                 </a>
 
                             </CardContent>  
