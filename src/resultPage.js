@@ -43,8 +43,8 @@ function ResultPage() {
                                 <Typography variant="h5" component="div">
                                     당신의 점수는? 
                                 </Typography>
-                                <Typography variant="h2" component="div">
-                                    [ {total} ] 
+                                <Typography variant="h2" component="div" color="#4876AF">
+                                     {total} 점 
                                 </Typography>
 
                                 <DetailChart value={total}/>
