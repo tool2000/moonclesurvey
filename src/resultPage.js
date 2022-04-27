@@ -63,6 +63,12 @@ function ResultPage() {
                                    [ 엄마와 딸의 교환일기 ]
                                 </Typography> */}
                                 <img src="/result562_img.jpg" width="100%"/>
+                                <a href="http://www.yes24.com/Product/Goods/108943383" style="text-decoration:none">
+                                    <img src="/gift.jpg" width="100%" />
+                                </a>
+                                <a href="http://ec2-15-164-241-83.ap-northeast-2.compute.amazonaws.com:3000/" style="text-decoration:none">
+                                    <img src="/link.jpg" width="100%" />
+                                </a>
 
                             </CardContent>  
                         </Card>
