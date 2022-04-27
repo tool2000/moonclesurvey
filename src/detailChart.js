@@ -21,7 +21,6 @@ export default function DetailChart(score) {
               type: 'line',
               toolbar: false,
             },
-            colors: ["#ea6061", "#4876af"],
             stroke: {
               width: [0, 4]
             },
@@ -32,9 +31,17 @@ export default function DetailChart(score) {
               enabled: true,
               enabledOnSeries: [1]
             },
-            labels: ['나의 점수', '평균 점수'],
             xaxis: {
-              type: 'text'
+              type: 'text',
+              categories: [
+                ['나의 점수'], 
+                ['평균 점수']
+              ],
+              labels: {
+                style: {
+                  colors: ["#ea6061", "#4876af"],
+                  fontSize: '16px'
+                }
             },
             yaxis: [{
               title: {
