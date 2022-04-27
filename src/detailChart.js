@@ -10,9 +10,16 @@ export default function DetailChart(score) {
         series: [{
             name: '점수',
             type: 'column',
-            data: [score.value, 70]
-          }, 
-        ],
+            data: [ 
+              { x: '나의 점수',
+                y: score.value,
+                fillColor: '#ea6061',
+              },
+              { x: '평균 점수',
+                y: 70,
+                fillColor: '#4876af'
+              } 
+            ],
           options: {
             chart: {
             //   height: 350,
@@ -20,7 +27,6 @@ export default function DetailChart(score) {
               type: 'line',
               toolbar: false,
             },
-            colors: ['#ea6061', '#4876af'],
             stroke: {
               width: [0, 4]
             },
@@ -32,7 +38,7 @@ export default function DetailChart(score) {
               enabledOnSeries: [1]
             },
             xaxis: {
-              type: 'text',
+              // type: 'text',
               categories: [
                 '나의 점수', 
                 '평균 점수'
