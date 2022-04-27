@@ -42,6 +42,7 @@ export default function DetailChart(score) {
                   colors: ["#ea6061", "#4876af"],
                   fontSize: '16px'
                 }
+              },
             },
             yaxis: [{
               title: {
