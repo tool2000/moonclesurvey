@@ -46,6 +46,10 @@
   padding: 0;
 }
 
+body {
+  line-height: 0;
+}
+
 h5 span {
   font-family: 'Noto Sans CJK KR', 'Hevaltica', 'Arial', 'sans-serif';
 }
@@ -62,11 +66,6 @@ div[role="presentation"] {
 .sv_qbln {
   margin: 8px;
   }
-
-a {
-    display: block;
-    margin: 0;
-    }
 
 @keyframes App-logo-spin {
   from {
