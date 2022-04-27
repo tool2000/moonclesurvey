@@ -44,10 +44,10 @@ function ResultPage() {
                                     당신의 점수는? 
                                 </Typography>
                                 <Typography variant="h2" component="div">
-                                    [ {total*10} ] 
+                                    [ {total} ] 
                                 </Typography>
 
-                                <DetailChart value={total*10}/>
+                                <DetailChart value={total}/>
 
                                 {/* <Typography variant="h5" component="div">
                                     엄마에 대해 얼마나 잘 알고 계신가요?

@@ -314,7 +314,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "나는 엄마의 말을 귀 기울여 들어주는 편이다.",
+        "label": "10-1. 나는 엄마의 말을 귀 기울여 들어주는 편이다.",
         "isRequired": true
       },
       {
@@ -323,7 +323,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마가 얘기할 땐 왠지 다른 사람들보다 집중을 덜 하게 된다.",
+        "label": "10-2. 엄마가 얘기할 땐 왠지 다른 사람들보다 집중을 덜 하게 된다.",
         "isRequired": true
       }
   ]
@@ -494,11 +494,11 @@ function MainBody() {
     console.log(res)
     var total = 0
     console.log(res)
-    if (res.bool1) {
-        total += 1
+    if (res.bool1 && !res.bool2 ) {
+        total -= 5
     }
     if (res.bool2) {
-        total += 1
+        total += 5
     }
     console.log(total)
     console.log(total.toString())
