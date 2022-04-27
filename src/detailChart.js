@@ -21,6 +21,7 @@ export default function DetailChart(score) {
               type: 'line',
               toolbar: false,
             },
+            colors: ["#ea6061", "#4876af"],
             stroke: {
               width: [0, 4]
             },
