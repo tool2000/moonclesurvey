@@ -49,7 +49,7 @@ const surveyJson = {
             // "title": "Please answer the question",
             // "indent": 30,
             "titleLocation": "top",
-            "label": "친구, 선생님, 동료 등 주변 5명 이상의 MBTI를 알고 있다.",
+            "label": "1-1. 나는 친구와 직장 동료를 포함한 지인들 중 5명 이상의 MBTI를 알고 있다.",
             "isRequired": true,
           },
           {
@@ -58,7 +58,7 @@ const surveyJson = {
             // "title": "Please answer the question",
             // "indent": 30,
             "titleLocation": "top",
-            "label": "나는 우리 엄마의 MBTI를 알고 있다.",
+            "label": "1-2. 나는 우리 엄마의 MBTI를 알고 있다.",
             "isRequired": true
           }
       ]
@@ -80,7 +80,7 @@ const surveyJson = {
           // "title": "Please answer the question",
           // "indent": 30,
           "titleLocation": "top",
-          "label": "친구 또는 연인과 함께 찍은 최근 날짜의 사진이 사진첩에 있다.",
+          "label": "2-1. 친구 또는 연인과 함께 찍은 최근 날짜의 사진이 사진첩에 있다.",
           "isRequired": true
         },
         {
@@ -89,7 +89,7 @@ const surveyJson = {
           // "title": "Please answer the question",
           // "indent": 30,
           "titleLocation": "top",
-          "label": "엄마와 함께 찍은 최근 날짜의 사진이 사진첩에 있다.",
+          "label": "2-2. 엄마와 함께 찍은 최근 날짜의 사진이 사진첩에 있다.",
           "isRequired": true
         }
     ]
@@ -111,7 +111,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "최근 한 달 이내에 주변 사람에게 기프티콘을 선물한 적이 있다.",
+        "label": "3-1. 최근 한 달 이내에 주변 사람에게 기프티콘을 선물한 적이 있다.",
         "isRequired": true
       },
       {
@@ -120,7 +120,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "최근 한 달 이내에 엄마에게 기프티콘을 선물한 적이 있다.",
+        "label": "3-2. 최근 한 달 이내에 엄마에게 기프티콘을 선물한 적이 있다.",
         "isRequired": true
       }
   ]
@@ -140,7 +140,7 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "4-1. 친구 또는 연인과 여행갈 계획이 있다.",
         "isRequired": true
       },
       {
@@ -149,210 +149,210 @@ const surveyJson = {
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "4-2. 엄마 또는 가족과 함께 여행갈 계획이 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "05/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner5",
+          "imageLink": "./5b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool9",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "5-1. 친구 또는 연인과 함께 영화를 보고 그 영화에 대해 얘기를 나눈 적이 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool10",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "5-2. 엄마와 함께 영화를 보고 그 영화에 대해 얘기를 나눈 적이 있다. ",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "06/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner6",
+          "imageLink": "./6b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool11",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "6-1. 친구 또는 연인과 함께 노래방에 가서 노래를 부른 적이 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool12",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "6-2. 엄마와 둘이 노래방에 가서 노래를 부른 적이 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "07/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner7",
+          "imageLink": "./7b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool13",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "7-1. 최근에 꽃 선물을 받거나 해준 적이 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool14",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "7-2. 엄마에게 꽃 선물을 해준 적이 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "08/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner8",
+          "imageLink": "./8b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool15",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "8-1. 친구들에게 직접 요리해 준 적이 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool16",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "8-2. 엄마에게 직접 만든 음식을 대접한 적이 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "09/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner9",
+          "imageLink": "./9b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool17",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "9-1. 엄마와 평소에 대화가 잘 안 통하는 편이라고 생각한다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool18",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "9-2. 웬만한 친구보다 우리 엄마랑 수다 떠는 게 더 재밌다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "10/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner10",
+          "imageLink": "./10b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool19",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "나는 엄마의 말을 귀 기울여 들어주는 편이다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool20",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "엄마가 얘기할 땐 왠지 다른 사람들보다 집중을 덜 하게 된다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "11-12/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner11-12",
+          "imageLink": "./11_12b.jpg",
           "imageWidth": "400px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool21",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "11. 엄마와 평소에 대화를 자주 하는 편이다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool22",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "12. 엄마와 일주일에 두 번 이상 같이 밥을 먹는다.",
         "isRequired": true
       }
   ]
