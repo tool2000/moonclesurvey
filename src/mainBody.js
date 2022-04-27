@@ -357,145 +357,122 @@ const surveyJson = {
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "13-14/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner13-14",
+          "imageLink": "./13_14b.jpg",
           "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool23",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "13. 엄마가 어떤 스타일의 옷이 잘 어울리는지 알고 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool24",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "14. 엄마에게 어울리는 립스틱 색깔을 알고 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "15-16/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner15-16",
+          "imageLink": "./15_16b.jpg",
           "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool25",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "15. 나는 엄마의 절친한 친구를 두 명 이상 알고 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool26",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "16. 요즘 엄마가 누구와 시시콜콜한 안부를 주고 받는지 알고 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "17-19/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner17-19",
+          "imageLink": "./17_19b.jpg",
           "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool27",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
+        "label": "17. 엄마와 단 둘이 여행을 가 본 적이 있다.",
         "isRequired": true
       },
       {
         "type": "boolean",
-        "name": "bool8",
+        "name": "bool28",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "18. 엄마와 함께 예쁜 카페나 흥미로운 전시회에 종종 가곤 한다.",
+        "isRequired": true
+      },      
+      {
+        "type": "boolean",
+        "name": "bool29",
+        // "title": "Please answer the question",
+        // "indent": 30,
+        "titleLocation": "top",
+        "label": "19. 최근에 엄마와 함께한 시간 중 즐거웠던 순간을 바로 떠올릴 수 있다.",
         "isRequired": true
       }
   ]
 }, {
-  "title": "04/20",
+  "title": "20/20",
   "elements": [
         {
           "type": "image",
-          "name": "banner4",
-          "imageLink": "./4b.jpg",
+          "name": "banner20",
+          "imageLink": "./20b.jpg",
           "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
         "type": "boolean",
-        "name": "bool7",
+        "name": "bool30",
         // "title": "Please answer the question",
         // "indent": 30,
         "titleLocation": "top",
-        "label": "친구 또는 연인과 여행갈 계획이 있다.",
-        "isRequired": true
-      },
-      {
-        "type": "boolean",
-        "name": "bool8",
-        // "title": "Please answer the question",
-        // "indent": 30,
-        "titleLocation": "top",
-        "label": "엄마 또는 가족과 함께 여행갈 계획이 있다.",
+        "label": "엄마에게 손편지를 써 본 적이 있다.",
         "isRequired": true
       }
   ]
 }, 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ],
   showQuestionNumbers: "off",
   pageNextText: "다음",
