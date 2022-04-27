@@ -63,6 +63,11 @@ div[role="presentation"] {
   margin: 8px;
   }
 
+a {
+    display: block;
+    margin: 0;
+    }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
