@@ -28,6 +28,16 @@ const useStyles = makeStyles({
     }
   });
 
+function copyAdd() {
+    var copyText = document.createElement("textarea");
+    document.body.appendChild(copyText);
+    copyText.value = 'https://bit.ly/37NMLPZ';
+    copyText.select();
+    document.execCommand('copy');
+    document.body.removeChild(copyText);
+    alert('테스트 링크 복사완료');
+}
+
 function ResultPage() {
   const { total } = useParams()
   const classes = useStyles()
@@ -69,9 +79,9 @@ function ResultPage() {
                                     <a href="http://www.yes24.com/Product/Goods/108943383">
                                         <img src="/gift.jpg" width="100%" height="100%" />
                                     </a>
-                                    <a href="http://ec2-15-164-241-83.ap-northeast-2.compute.amazonaws.com">
-                                        <img src="/link.jpg" width="100%" height="100%" />
-                                    </a>
+                                    
+                                    <img src="/link.jpg" width="100%" height="100%" onClick={copyAdd} />
+                                    
                                 </div>
 
                             </CardContent>  
