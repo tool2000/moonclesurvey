@@ -494,76 +494,46 @@ function MainBody() {
     console.log(res)
     var total = 0
     console.log(res)
-    if (res.bool1 && !res.bool2 ) {
-        total -= 5
-    }
+
     if (res.bool2) {
         total += 5
     }
 
-    if (res.bool3 && !res.bool4 ) {
-      total -= 5
-    }
     if (res.bool4) {
         total += 5
     }
 
-    if (res.bool5 && !res.bool6 ) {
-      total -= 5
-    }
     if (res.bool6) {
         total += 5
     }
 
-    if (res.bool7 && !res.bool8 ) {
-      total -= 5
-    }
     if (res.bool8) {
         total += 5
     }
 
-    if (res.bool9 && !res.bool10 ) {
-      total -= 5
-    }
     if (res.bool10) {
         total += 5
     }
 
-    if (res.bool11 && !res.bool12 ) {
-      total -= 5
-    }
     if (res.bool12) {
         total += 5
     }
 
-    if (res.bool13 && !res.bool14 ) {
-      total -= 5
-    }
     if (res.bool14) {
         total += 5
     }
 
-    if (res.bool15 && !res.bool16 ) {
-      total -= 5
-    }
     if (res.bool16) {
         total += 5
     }
 
-    if (res.bool17 && !res.bool18 ) {
-      total -= 5
-    }
     if (res.bool18) {
         total += 5
     }
 
-    if (res.bool19 && !res.bool20 ) {
-      total -= 5
-    }
     if (res.bool20) {
         total += 5
     }
-
 
     if (res.bool21) {
         total += 5
