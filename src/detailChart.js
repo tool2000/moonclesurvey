@@ -13,13 +13,14 @@ export default function DetailChart(score) {
             data: [ 
               { x: '나의 점수',
                 y: score.value,
-                fillColor: '#ea6061',
+                fillColor: '#EA6061',
               },
               { x: '평균 점수',
                 y: 70,
-                fillColor: '#4876af'
+                fillColor: '#4876AF',
               } 
             ],
+          }],
           options: {
             chart: {
             //   height: 350,
