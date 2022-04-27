@@ -131,7 +131,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner4",
           "imageLink": "./4b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -160,7 +160,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner5",
           "imageLink": "./5b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -189,7 +189,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner6",
           "imageLink": "./6b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -218,7 +218,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner7",
           "imageLink": "./7b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -247,7 +247,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner8",
           "imageLink": "./8b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -276,7 +276,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner9",
           "imageLink": "./9b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -305,7 +305,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner10",
           "imageLink": "./10b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -334,7 +334,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner11-12",
           "imageLink": "./11_12b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -363,7 +363,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner4",
           "imageLink": "./4b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -392,7 +392,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner4",
           "imageLink": "./4b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -421,7 +421,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner4",
           "imageLink": "./4b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
@@ -450,7 +450,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner4",
           "imageLink": "./4b.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
