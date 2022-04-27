@@ -102,7 +102,7 @@ const surveyJson = {
           "type": "image",
           "name": "banner3",
           "imageLink": "./3a.jpg",
-          "imageWidth": "400px",
+          "imageWidth": "375px",
           "imageHeight": "320px",
       },
       {
