@@ -16,24 +16,18 @@ StylesManager.applyTheme("modern");
 const surveyJson = {
   showProgressBar: "off",
   logoWidth: "1440px",
-  pages: [{
-      elements: [            
-        // {
-        //   type: "html",
-        //   html: "<h2>5월은 가정의 달. 엄마에 대해 얼마나 알고있나요? </h2>"
-        // },
-        {
-          "type": "image",
-          "name": "banner",
-          "imageLink": "start2.jpg",
-          "imageWidth": "375px",
-          "imageHeight": "600px",
-          // "imageWidth": "100vw",
-          // "imageHeight": "100vh",
-          // "maxWidth": "1920px",
-          // "minWidth": "100%",
-        }]
-    }, {
+  pages: [
+    // {
+    //   elements: [            
+    //     {
+    //       "type": "image",
+    //       "name": "banner",
+    //       "imageLink": "start2.jpg",
+    //       "imageWidth": "375px",
+    //       "imageHeight": "600px",
+    //     }]
+    // }, 
+    {
       "title": "01/20",
       "elements": [
             {
@@ -478,7 +472,7 @@ const surveyJson = {
   pageNextText: "다음",
   completeText: "결과보기",
   showPrevButton: false,
-  firstPageIsStarted: true,
+  firstPageIsStarted: false,
   startSurveyText: "테스트 시작하기",
   completedHtml: "",
   // showPreviewBeforeComplete: "showAnsweredQuestions"
